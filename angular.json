@@ -31,9 +31,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/@finos/perspective-viewer/src/themes/all-themes.less"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/@finos/perspective/dist/umd/perspective.js",
+              "node_modules/@finos/perspective-viewer/dist/umd/perspective-viewer.js",
+              "node_modules/@finos/perspective-viewer-datagrid/dist/umd/perspective-viewer-datagrid.js",
+              "node_modules/@finos/perspective-viewer-d3fc/dist/umd/perspective-viewer-d3fc.js"
+            ]
           },
           "configurations": {
             "production": {
